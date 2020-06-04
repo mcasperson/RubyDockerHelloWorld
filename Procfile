@@ -1,1 +1,1 @@
-web: bundle exec ruby app.rb
+web: puma -C /opt/elasticbeanstalk/config/private/pumaconf.rb
