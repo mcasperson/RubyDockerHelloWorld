@@ -1,1 +1,1 @@
-Compress-Archive -Path app.rb, config.ru, Procfile, Gemfile, Gemfile.lock -DestinationPath beanstalk-app-bundle.zip -Force
+Compress-Archive -Path app.rb, config.ru, Procfile, Gemfile, Gemfile.lock, vendor -DestinationPath beanstalk-app-bundle.zip -Force
