@@ -1,0 +1,1 @@
+Compress-Archive -Path app.rb, Procfile, Gemfile -DestinationPath beanstalk-app-bundle.zip -Force

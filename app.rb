@@ -1,6 +1,6 @@
 require 'sinatra'
 
-set :port, 8080
+set :port, ENV['PORT'] || 8080
 
 get '/hi' do
   "Hello world!"
